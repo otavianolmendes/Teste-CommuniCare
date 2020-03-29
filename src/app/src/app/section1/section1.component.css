@@ -1,0 +1,21 @@
+.container{
+  display: flex;
+}
+.row{
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex: 1;
+  margin: 20px auto;
+}
+
+h2{
+  font-size: 33px;
+  color: #333;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+img{
+  margin-bottom: 20px;
+  width: 200px;
+}

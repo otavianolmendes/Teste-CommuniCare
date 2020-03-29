@@ -24,9 +24,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/font-awesome/css/font-awesome.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/bootstrap/js/dist/dropdown.js",
+              "./node_modules/bootstrap/js/src/dropdown.js",
+              "./node_modules/bootstrap/js/dist/dropdown.js.map"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "communicare"
+    }
+  },
+  "defaultProject": "communicare",
+  "cli": {
+    "analytics": "d7da7b09-66cf-4530-8d2a-78534d4eb3e8"
+  }
 }
